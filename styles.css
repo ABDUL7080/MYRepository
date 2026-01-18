@@ -1,0 +1,79 @@
+/* ========== Global Reset ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ========== Body Styling ========== */
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #6a11cb, #2575fc); /* Purple gradient */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ========== Main Card ========== */
+.container {
+    background: #ffffff;
+    padding: 35px 45px;
+    border-radius: 14px;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+    text-align: center;
+    width: 350px;
+}
+
+/* ========== Heading ========== */
+.container h1 {
+    color: #6a11cb;
+    margin-bottom: 10px;
+}
+
+/* ========== Text ========== */
+.container p {
+    color: #555;
+    margin-bottom: 25px;
+}
+
+/* ========== Button Group ========== */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+/* ========== Buttons ========== */
+button {
+    flex: 1;
+    padding: 12px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+/* Sign In Button */
+.btn-signin {
+    background-color: #6a11cb;
+    color: white;
+}
+
+.btn-signin:hover {
+    background-color: #4b0ea3;
+}
+
+/* Sign Up Button */
+.btn-signup {
+    background-color: #ede9fe;
+    color: #6a11cb;
+    border: 1px solid #6a11cb;
+}
+
+.btn-signup:hover {
+    background-color: #dcd1ff;
+}
